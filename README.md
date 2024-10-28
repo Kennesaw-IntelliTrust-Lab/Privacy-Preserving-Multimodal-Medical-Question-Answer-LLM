@@ -68,10 +68,6 @@ Wait until the process finishes loading the model and you see "Uvicorn running o
 
 The Privacy-Preserving LLaVA-Med model enhances the original LLaVA-Med biomedical assistant by incorporating additional privacy protections for text and image data. Utilizing advanced natural language processing and computer vision techniques, this model preprocesses user data in real-time to obscure personally identifiable information and adds controlled noise to sensitive image regions. While it functions as a preprocessing module, it does not alter the core architecture of LLaVA-Med, ensuring that user privacy is maintained without compromising the accuracy of biomedical assistance.
 
-**Data**
-
-The Privacy-Preserving LLaVA-Med model is trained and evaluated on widely used medical datasets, including SLAKE, VQA-RAD, and VQA. These datasets contain various types of medical information, such as radiological images and associated question-answer pairs, which support the model's understanding of medical inquiries and visual data. Each dataset offers a unique scope: SLAKE focuses on visual question answering in medical images, VQA-RAD addresses radiology-related queries, and VQA encompasses a broader array of visual question-answering tasks. Given the privacy considerations, these datasets were augmented through preprocessing steps where PII was obfuscated and visual elements were selectively anonymized. This preprocessing was essential in aligning the model's learning with the goals of privacy preservation.
-
 **Limitations**
 
 While the Privacy-Preserving LLaVA-Med model enhances privacy for both text and image data, it does have certain limitations. Although it is beneficial for protecting privacy, the added noise in images and the obfuscation of text can sometimes slightly impact the model's performance, particularly in situations where fine-grained details are essential for accurate medical interpretation. Furthermore, the use of the OpenAI API, which addresses text obfuscation, limits the number of simultaneous conversations and also slows down response times.

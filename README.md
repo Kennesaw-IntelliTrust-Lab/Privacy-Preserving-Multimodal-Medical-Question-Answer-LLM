@@ -2,10 +2,9 @@
 
 # Contents
 - [Install](#Install)
-- Serving
-- Model Description
-- Acknowledgement
-- Related Projects
+- [Serving](#Serving)
+- [Model Description](Model Description)
+- [Acknowledgement](Acknowledgement)
 
 # Install
 <a id="Install"></a>
@@ -32,7 +31,7 @@
 
      ```
 # Serving
-
+<a id="Serving"></a>
 ### Web UI
 
 **Launch a Controller**
@@ -61,3 +60,10 @@ Wait until the process finishes loading the model and you see "Uvicorn running o
      python -m llava.serve.gradio_web_server --controller http://localhost:10000
    ```
 **You can open your browser and chat with a model now.**
+
+# Model Description
+<a id="Model Description"></a>
+
+# Acknowledgement
+<a id="Acknowledgement"></a>
+

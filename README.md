@@ -1,7 +1,7 @@
 # Privacy-Preserving-Multimodal-Medical-Question-Answer-LLM
 
 # Contents
-- Install (#Install)
+- [Install](#Install)
 - Serving
 - Model Description
 - Acknowledgement

@@ -10,8 +10,7 @@
 - [Base Model](#Base_Model)
 
 # Framework
-![Framework of our Model](Privacy-Preserving-Multimodal-Medical-Question-Answer-LLM
-/images/Framework.png)
+![Framework of our Model](images/Framework.png)
 
 # Install
 <a id="Install"></a>

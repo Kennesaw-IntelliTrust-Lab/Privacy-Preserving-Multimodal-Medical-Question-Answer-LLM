@@ -2,11 +2,16 @@
  Enhances biomedical assistance by safeguarding user data through real-time obfuscation of text and controlled noise in images, all while maintaining model accuracy.
 
 # Contents
+- [Framework](#Framework)
 - [Install](#Install)
 - [Serving](#Serving)
 - [Model Description](#ModelDescription)
 - [Acknowledgement](#Acknowledgement)
 - [Base Model](#Base_Model)
+
+# Framework
+![Framework of our Model](Privacy-Preserving-Multimodal-Medical-Question-Answer-LLM
+/images/Framework.png)
 
 # Install
 <a id="Install"></a>
